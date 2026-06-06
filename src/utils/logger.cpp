@@ -1,9 +1,9 @@
 #include "logger.hpp"
-#include <iostream>
 #include <fstream>
 #include <chrono>
 #include <iomanip>
 #include <sstream>
+#include <android/log.h>
 
 std::string Logger::log_file_;
 Logger::Level Logger::current_level_ = LOG_INFO;
